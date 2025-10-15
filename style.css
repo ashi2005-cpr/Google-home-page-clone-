@@ -1,0 +1,188 @@
+h1{ text-align:justify;
+padding-left: 750px;
+text-decoration: double;
+}
+h5{ 
+    text-align: justify;
+    padding-left: 750px;
+    text-decoration: none;
+    font-weight: 100;
+}
+
+
+
+.box{
+    display:flex;
+    padding-left: 750px;
+
+}
+.first{
+    padding-top: 12px;
+    padding-right: 3px;
+}
+#name{
+    padding-bottom: 3px;
+    background-color: white;
+
+}
+.third{text-align: justify;
+    padding-left: 750px;
+    text-decoration: none;
+    font-weight: 100;
+    padding-top: 5px;
+ 
+}
+
+
+#name3{
+    width: 83%;
+    padding-bottom: 3px;
+    padding-top: 3px;
+background-color: white;
+    
+}
+.fourth{
+    text-align: justify;
+    padding-left: 750px;
+    text-decoration: none;
+    font-weight: 100;
+    padding-top: 10px;
+ 
+}
+#password{ width: 83%;
+    padding-bottom: 3px;
+    padding-top: 3px; 
+    background-color: white;
+
+
+}
+.fifth{text-align: justify;
+    padding-left: 750px;
+    text-decoration: none;
+    font-weight: 100;
+    padding-top: 10px;
+ 
+
+}
+.flex{
+    display: flex;
+    text-align: justify;
+    padding-left: 750px;
+    text-decoration: none;
+    font-weight: 100;
+    padding-top: 10px;
+}
+
+    
+#male{
+    margin-left: 3px;
+    
+}
+a{text-decoration: none;
+ color:#385898}
+ .para{ display: flex;
+    text-align: justify;
+    padding-left: 690px;
+    text-decoration: none;
+    font-weight: 100;
+    padding-top: 10px;
+
+ }
+ .button{ display: flex;
+    text-align: justify;
+    padding-left: 750px;
+    text-decoration: none;
+    font-weight: 100px;
+    padding-top: 2px;
+   
+
+}
+.ca{
+    background-color: rgb(15, 199, 15);
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 18px;
+    color: azure;
+    text-shadow: 28px;
+    box-shadow: 30px;
+    font-size: 12px;
+}
+    .h4{
+         display: flex;
+    text-align: justify;
+    padding-left: 690px;
+    text-decoration: none;
+    font-weight: 100;
+    padding-top: 10px;
+
+    }
+    
+      .second2{
+    position: absolute;
+    top:50px;
+    font-size: 26px;
+    font-weight: bolder;
+    
+
+}
+.second{
+    padding: 1px 20px 3px 40px;
+    margin-top: 10px;
+    margin-bottom: 2px;
+
+    }
+    .para2 ul{
+ position: absolute;
+    top: 130px;
+ list-style: none;
+    padding: 0;
+    padding-left: 60px;
+    padding-top: 20px;
+    
+}
+.navbox{
+    background-color: #385898;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    box-shadow:  0 2px 6px;
+    height: 50px;
+   
+}
+.navleft{
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 25px;
+font-weight: 80px;
+padding-left: 22px;
+padding-top: 12px;
+}
+.navright{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    padding-top: 10px;
+
+}
+.navb{
+    background-color: #476ebd;
+    color: white;
+    border: #1C1E21;
+}
+.forget{
+    padding-left: 285px;
+    color: rgb(199, 199, 199);
+}
+    
+
+body{
+ background-color: #F0F2F5;
+ color: #1C1E21;
+}
+.second{
+    padding-bottom: 12px;
+}
+#name2{
+    padding-bottom: 3px;
+}
