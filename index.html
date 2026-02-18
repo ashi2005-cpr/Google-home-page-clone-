@@ -1,45 +1,56 @@
-</html<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="A new web page">
-    <meta name="robots" content="index, follow">
-    <link rel="stylesheet" href="style.css">
-    <title> GOOGLE HOME PAGE </title>
-
+<title>Google Transform</title>
+<link rel="stylesheet" href="style.css">
 </head>
-   
+
 <body>
-    <!--google nav bar-->
-    <div class="navbar"> 
-    <div class="navbar-left">    <a href="2">&#9776;</a></div>
-       
-           
 
-    <div class="navbar-right">
+<div class="particles"></div>
 
-    <a href="afdg">Gmail</a>
+<div class="container">
+    <img class="logo"
+    src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
 
-    <a href="afdg">Image</a>
+    <br>
 
+    <input type="text" class="search-box">
+
+    <div class="buttons">
+        <button>Google Search</button>
+        <button>I'm Feeling Lucky</button>
+    </div>
+
+    <button id="transformBtn">Make It Beautiful</button>
 </div>
-</div>
-     
-     <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" 
-       alt="Google Logo"class="logo"
 
-      >
-      <!--search bar-->
-      <div class="container">
-       <form action="https://www.google.com/search"method="get">   
-           <input type="text" placeholder="🔍search google" class="search-bar">
-           
-</form>
+<script>
 
+const btn = document.getElementById("transformBtn");
+const particles = document.querySelector(".particles");
 
+/* Create particles */
+for (let i = 0; i < 30; i++) {
+    let span = document.createElement("span");
+    span.style.left = Math.random() * 100 + "vw";
+    span.style.animationDuration = (5 + Math.random() * 5) + "s";
+    particles.appendChild(span);
+}
 
+/* Toggle transform */
+btn.addEventListener("click", function() {
+    document.body.classList.toggle("beautiful");
+
+    if (document.body.classList.contains("beautiful")) {
+        btn.textContent = "Welcome ✨";
+    } else {
+        btn.textContent = "Make It Beautiful";
+    }
+});
+
+</script>
 
 </body>
 </html>
+
